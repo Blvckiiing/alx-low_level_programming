@@ -1,13 +1,14 @@
 #include <stdio.h>
 
-/*
- * Prints all possible two-digit combinations of the digits 0-9.
+/**
+ * main - Prints all possible different combinations of two digits.
  *
- * This program prints all possible two-digit combinations of the digits 0-9,
- * separated by commas and spaces. The digits are printed in ascending order.
+ * Description: Numbers must be separated by ', ', and the two digits must be different.
+ * * 01 and 10 are considered the same combination of the two digits 0 and 1.
+ * Only the smallest combination of two digits should be printed.
+ * Numbers should be printed in ascending order, with two digits.
  *
- * Returns:
- *     0 on successful completion.
+ * Return: 0 on successful completion.
  */
 int main(void)
 {
@@ -19,11 +20,10 @@ int main(void)
 		{
 			putchar(i + '0');
 			putchar(j + '0');
-			if (i < 8 || j < 9)
-			{
-				putchar(',');
-				putchar(' ');
-			}
+			if (i == 8 && j == 9)
+				continue;
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	putchar('\n');
