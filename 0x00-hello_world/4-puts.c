@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /* This program prints a message using the `puts` function.*/
 int main(void)
 {
