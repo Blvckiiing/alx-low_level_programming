@@ -1,0 +1,1 @@
+ar rcs libmy.a my_functions.o
