@@ -1,5 +1,3 @@
-5-strstr.c
-
 #include "main.h"
 /**
  * _strstr - Entry point
