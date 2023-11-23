@@ -1,4 +1,4 @@
-This is about bit manipulation
+About this project: This is about bit manipulation
 
 Task 0.0:
 Write a function that converts a binary number to an unsigned int.
