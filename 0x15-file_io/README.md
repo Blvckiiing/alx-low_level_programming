@@ -1,4 +1,4 @@
-This is the 0x15.c input/output project
+This is the 0x15.c input/output project. The date is 27/11/2023
 
 0. Tread lightly, she is near
 Write a function that reads a text file and prints it to the POSIX standard output.
